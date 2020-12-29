@@ -1,0 +1,12 @@
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; 
+  align-items: center;
+  padding-bottom: 35px;
+}
+.form h2{
+  color:#00003E;
+  font-weight: bold;
+  color:rgb(47, 54, 151);
+}

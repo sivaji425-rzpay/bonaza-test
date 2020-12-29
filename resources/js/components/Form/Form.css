@@ -1,0 +1,32 @@
+.form-valid{
+    box-shadow: 1px 2px 10px 5px #888888;
+    margin-top:1rem;
+    padding: 2rem 2rem 1.3rem 1rem;
+    background-color: #00003E;
+    background-image: linear-gradient(to bottom right,rgb(35, 38, 143),rgb(46, 146, 138));
+}
+.form-group label{
+    font-weight: bold;
+    color:white;
+}
+.error{
+    display: none;
+    color:rgb(250, 34, 34);
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+    width:0% !important;
+}
+.cancel{
+    background-color:rgba(241, 66, 66, 0.774);
+    border:none;
+}
+
+@media only screen and (max-width: 991px) {
+.codes{
+    margin-bottom: 1rem;
+}
+}
